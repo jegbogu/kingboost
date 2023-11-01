@@ -1,0 +1,120 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.div2{
+    width: 90%;
+    position: absolute;
+    height: 100vh;
+}
+ .label{
+    border-radius: 50%;
+    width: 50px ;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+h1{
+    font-size: 20px;
+}
+.const{
+    display: flex;
+    flex-direction: column; 
+    box-shadow: 0px 0px  15px -1px gray ;
+    border-radius: 10px;
+
+    
+}
+.box1{
+ 
+    height: 40px;
+    padding: 10px;
+
+    display: flex;
+}
+.search{
+      margin-left: 500px;
+      height: 30px;
+      outline: none;
+}
+
+
+.box2{
+    width: 100%;
+    height: 100vh;
+}
+
+.no{
+    display: flex; 
+}
+
+.link{
+    border: 1px solid black;
+    height: 40px;
+    width: 35%;
+    padding: 5px;
+    margin: 7px;
+}
+.order{
+    border: 1px solid black;
+    height: 40px;
+    width:40%;
+    padding: 5px;
+    margin: 7px;
+
+
+}
+.amount{
+    border: 1px solid black;
+    height: 40px;
+    width: 12%;
+    padding: 5px;
+    margin: 7px;
+
+}
+.quantity{
+    border: 1px solid black;
+    height: 40px;
+    width: 12%x;
+    padding: 5px;
+    margin: 7px;
+
+
+}
+
+
+@media (max-width: 768px){
+    
+
+
+   .div2{
+    width: 100%;
+    
+   }
+.const{
+    width: 1200px;
+    margin-left: 5%;
+    font-size: 13px;
+}
+.label{
+    margin-left: 5%;
+}
+h1{
+    margin-left: 5%;
+}
+
+}
+
+
+
